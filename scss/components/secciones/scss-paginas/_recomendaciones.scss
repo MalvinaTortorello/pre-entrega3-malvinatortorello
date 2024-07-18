@@ -1,0 +1,30 @@
+.gradiente-recomendaciones{
+    background-image:linear-gradient(to top,#1a754f85,#d9e2d9 )
+}
+.imagen-recomendaciones{
+    width: 320px;
+    height: 550px;
+    border-style:solid;
+    margin: 5px, solid, white;
+    Border-radius:20px;
+    transform: translate();
+}
+.icono-pagina{
+    animation-name:icono-pagina;
+    animation-duration: 2s ;
+}
+h2{
+    @include h2;
+}
+
+@keyframes icono-pagina{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+@media screen and (max-width: 500px){
+    .imagen-recomendaciones {
+        display: flex;
+    height: 100%;
+    width: 100%;
+    }
+}

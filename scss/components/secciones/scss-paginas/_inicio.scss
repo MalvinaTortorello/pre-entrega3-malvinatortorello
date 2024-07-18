@@ -1,0 +1,68 @@
+.color-fondo{
+    background-color:#d9e2d9;
+    margin: 0px;
+}
+.imagen-inicio{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin: 15px;
+    padding-bottom: 90px;
+    cursor: crosshair;
+    border-radius: 20px 20px 20px 20px;
+}
+.imagen-inicio:hover{
+    transform: scale(1.1);
+}
+h2{
+    @include h2;
+}
+h4{
+    font-family:$letra-indie;
+}
+.comic-neue{
+    font-family: $letra-indie;
+}
+.titulofont{
+    font-family: $letra-caveat;
+    font-size: 55px;
+    text-align: center;
+    margin: 0;
+    background-color: #F3F7F8 ;
+    color:   #316659;      
+}
+.sobre-nosotros{
+    background-color: #316659;
+    color: #F3F7F8;
+    font-family: $letra-indie;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px;
+    padding-bottom: 70px;
+}
+/* NAV  */
+ul {
+    display: flex;
+    list-style-type: none;
+    background: #f0f0f1;
+    overflow: hidden;
+    margin: 0;
+}
+li{
+    float: left;
+}
+li a {
+    color: rgb(8, 8, 8);
+    text-align: center;
+    text-decoration: none;
+    position: relative; 
+    padding-left: 150px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family:$letra-caveat;
+    font-size: 25px;
+    color: #316659;
+}
+.navbar-toggler{
+    color: black;
+}

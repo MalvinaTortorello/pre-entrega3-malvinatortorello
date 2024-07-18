@@ -1,0 +1,24 @@
+
+/* CSS CONTACTO */
+.main-contacto {
+    color:#316659;
+    font-family: $letra-cursiva;
+    font-size: 15px;
+    text-align: center;
+    margin: 80px 400px 40px 400px;
+}
+.button-contacto:hover{
+    background-color: #F3F7F8;
+    box-shadow: 0 0 5px;
+}
+    /*CONTACTOS MOBILE*/
+    @media screen and (max-width: 1165px){
+        .main-contacto {
+            color:#316659;
+            font-family: $letra-cursiva;
+            font-size: 15px;
+            text-align: center;
+            margin:auto;
+            padding-bottom: 50px ;
+        }
+    }

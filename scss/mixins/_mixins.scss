@@ -1,0 +1,14 @@
+@mixin h2{
+        font-family:"Indie Flower", cursive;
+        color: #316659;
+        text-align: center;
+        font-size:25px ;
+}
+@mixin footer{
+        display: flex;
+        background-color:#d7deeb;
+        font-family: "Comic Neue", cursive;
+        color:#316659;
+        padding-top: 50px;
+        justify-content: space-around;
+}

@@ -1,0 +1,102 @@
+
+/*CC ANIME PAGINA*/
+.color-fondo{
+    background-color:$fondo;
+}
+.imagen-anime{
+    width: 320px;
+    height: 450px;
+    border-style:solid;
+    margin: 5px;
+    Border-radius:20px
+}
+.parrafo-anime{
+    display: inline-block;
+    text-align: center;
+    color: rgb(18, 18, 19);
+    width: 500px;
+    height: 200px;
+    padding: 5px;
+    margin: 0;
+}
+/*ANIME mobile SCSS*/
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+#texto1{
+    grid-area: texto1;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+#zona2{
+    grid-area: zona2;
+    height: 500px;
+    width: 400px;
+}
+#texto2{
+    grid-area: texto2;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+#zona3 img{
+    grid-area: zona3;
+    height: 500px;
+    width: 400px;
+}
+#texto3{
+    grid-area: texto3;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+.imagen-anime-contenedor{
+    width: 400px;
+    height: 500px;
+}
+#zona11{
+    grid-area: zona1;
+    height: 500px;
+    width: 400px;
+}
+#texto11{
+    grid-area: texto1;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+#zona22{
+    grid-area: zona2;
+    height: 500px;
+    width: 400px;
+}
+#texto22{
+    grid-area: texto2;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+#zona33 img{
+    grid-area: zona3;
+    height: 500px;
+    width: 400px;
+}
+#texto33{
+    grid-area: texto3;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+    /*ANIME MOBILE */
+    @media screen and (max-width: 500px){
+        .grid-container {
+            display: flex;
+        height: 100%;
+        width: 100%;
+        }
+    }

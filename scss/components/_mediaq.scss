@@ -1,0 +1,56 @@
+/*SERIES, PELICULAS Y FOOTER MOBILE */
+@media screen and (max-width: 767px){
+    .display-mobile {
+        display: flex;
+        width: 95%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .diseño{
+        display: none;
+    }
+    .navescritorio{
+        display: none;
+    }
+    .titulofont{
+        display: none;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-anime{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+    @media  (min-width: 767px) {
+        #navbar-mobile {
+            display: none;
+        }
+    }
+    /*CONTACTOS MOBILE*/
+    @media screen and (max-width: 1165px){
+        .main-contacto {
+            color:#316659;
+            font-family: "Comic Neue", cursive;
+            font-size: 15px;
+            text-align: center;
+            margin:auto;
+            padding-bottom: 50px ;
+        }
+    }
+    /*ANIME MOBILE */
+    @media screen and (max-width: 500px){
+        .grid-container {
+            display: flex;
+        height: 100%;
+        width: 100%;
+        }
+    }

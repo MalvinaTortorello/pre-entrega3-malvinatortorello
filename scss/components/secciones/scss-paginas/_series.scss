@@ -1,0 +1,24 @@
+.diseño{
+    display: flex;
+    width: 1400px;
+    height: 500px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.diseño img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.diseño img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.display-mobile{
+    display: none;
+}
