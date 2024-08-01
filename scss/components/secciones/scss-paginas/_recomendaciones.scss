@@ -4,9 +4,10 @@
 .imagen-recomendaciones{
     width: 320px;
     height: 550px;
-    border-style:solid;
+    border-radius: 10px;
     margin: 5px, solid, white;
     transform: translate();
+    padding-bottom: 5px;
 }
 .icono-pagina{
     animation-name:icono-pagina;

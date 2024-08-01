@@ -98,7 +98,7 @@ li a {
   height: 450px;
   border-style: solid;
   margin: 5px;
-  Border-radius: 20px;
+  border-radius: 20px;
 }
 
 .parrafo-anime {
@@ -210,9 +210,10 @@ li a {
 .imagen-recomendaciones {
   width: 320px;
   height: 550px;
-  border-style: solid;
+  border-radius: 10px;
   margin: 5px, solid, white;
   transform: translate();
+  padding-bottom: 5px;
 }
 
 .icono-pagina {
@@ -384,7 +385,7 @@ footer {
   }
   #zona2 {
     grid-area: zona2;
-    height: 320px;
+    height: 420px;
     width: 320px;
   }
   #texto2 {
@@ -395,7 +396,7 @@ footer {
   }
   #zona3 img {
     grid-area: zona3;
-    height: 320px;
+    height: 420px;
     width: 320px;
   }
   #texto3 {
@@ -405,12 +406,12 @@ footer {
     font-size: 14px;
   }
   .imagen-anime-contenedor {
-    height: 320px;
+    height: 420px;
     width: 320px;
   }
   #zona11 {
     grid-area: zona1;
-    height: 320px;
+    height: 420px;
     width: 320px;
   }
   #texto11 {
@@ -421,7 +422,7 @@ footer {
   }
   #zona22 {
     grid-area: zona2;
-    height: 320px;
+    height: 420px;
     width: 320px;
   }
   #texto22 {
@@ -432,7 +433,7 @@ footer {
   }
   #zona33 img {
     grid-area: zona3;
-    height: 320px;
+    height: 420px;
     width: 320px;
   }
   #texto33 {
