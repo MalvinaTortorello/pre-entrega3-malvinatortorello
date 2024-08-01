@@ -7,6 +7,21 @@
         flex-direction: row;
         justify-content: center;
         padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .display-mobile img{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+    .display-mobile img:hover{
+        cursor: crosshair;
+        width: 150px;
+        opacity: 1;
+        filter: contrast(120%);
     }
     .diseño{
         display: none;
@@ -49,8 +64,129 @@
     /*ANIME MOBILE */
     @media screen and (max-width: 500px){
         .grid-container {
-            display: flex;
-        height: 100%;
-        width: 100%;
+        display: flex;
         }
     }
+    @media screen and (max-width:400px){
+        #texto1{
+            grid-area: texto1;
+            width: 320px;
+            text-align: center;
+            font-size: 14px;
+        }
+        #zona2{
+            grid-area: zona2;
+            height: 320px;
+            width: 320px;
+        }
+        #texto2{
+            grid-area: texto2;
+            width: 320px;
+            text-align: center;
+            font-size: 14px;
+        }
+        #zona3 img{
+            grid-area: zona3;
+            height: 320px;
+            width: 320px;
+        }
+        #texto3{
+            grid-area: texto3;
+            width: 320px;
+            text-align: center;
+            font-size: 14px;
+        }
+        .imagen-anime-contenedor{
+            height: 320px;
+            width: 320px;
+        }
+        #zona11{
+            grid-area: zona1;
+            height: 320px;
+            width: 320px;
+        }
+        #texto11{
+            grid-area: texto1;
+            width: 320px;
+            text-align: center;
+            font-size: 14px;
+        }
+        #zona22{
+            grid-area: zona2;
+            height: 320px;
+            width: 320px;
+        }
+        #texto22{
+            grid-area: texto2;
+            width: 320px;
+            text-align: center;
+            font-size: 14px;
+        }
+        #zona33 img{
+            grid-area: zona3;
+            height: 320px;
+            width: 320px;
+        }
+        #texto33{
+            grid-area: texto3;
+            width: 320px;
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+    @media screen and (max-width:320px){
+        #texto1,#texto2, #texto3, #texto11, #texto22, #texto33{
+            width: 320px;
+        }
+    }
+    /*MEDIA BARRA NAVEGACION*/
+    @media  (min-width: 767px) and (max-width:1245px) {
+        #navbar-mobile {
+        display:flex;
+    }
+    .navescritorio{
+        display: none;
+    }
+}
+/*AJUSTES recomendaciones*/
+@media screen and (max-width: 1261px){
+    .imagenes-recomendaciones-desk{
+        display: grid;
+        margin: 0px auto;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+    @media screen and (max-width: 1000px){
+        .imagenes-recomendaciones-desk{
+            display: grid;
+            margin: 0px auto;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+        @media screen and (max-width: 640px){
+            .imagenes-recomendaciones-desk{
+                display: grid;
+                margin: 0px auto;
+                justify-content: center;
+                align-items: center;
+                grid-template-columns: 1fr;
+            }
+        }
+            @media screen and (max-width: 639px){
+                .imagenes-recomendaciones-desk{
+                    grid-template-columns: 1fr 1fr;
+                }
+                .imagen-recomendaciones {
+                    width: 250px;
+                }
+            }
+                @media screen and (max-width: 500px){
+                    .imagenes-recomendaciones-desk{
+                        grid-template-columns: 1fr;
+                    }
+                    .imagen-recomendaciones {
+                        width: 315px;
+                    }
+                }

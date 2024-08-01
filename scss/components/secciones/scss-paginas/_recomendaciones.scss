@@ -6,7 +6,6 @@
     height: 550px;
     border-style:solid;
     margin: 5px, solid, white;
-    Border-radius:20px;
     transform: translate();
 }
 .icono-pagina{
@@ -16,15 +15,16 @@
 h2{
     @include h2;
 }
-
+.navescritorio{
+    margin: 0px;
+}
+.imagenes-recomendaciones-desk{
+    display: grid;
+    margin: 0px auto;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 @keyframes icono-pagina{
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
-}
-@media screen and (max-width: 500px){
-    .imagen-recomendaciones {
-        display: flex;
-    height: 100%;
-    width: 100%;
-    }
 }
